@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite of Tests">
+
+    <test name="Ebay Fragrances Test">
+        <classes>
+
+            <class name="testcases.EbayFragrancesTest"/>
+
+        </classes>
+    </test>
+    <test name="Ebay Jewelry Test">
+        <classes>
+
+            <class name="testcases.EbayJewelryTest"/>
+
+        </classes>
+    </test>
+    <test name="Ebay Search Product Test">
+        <classes>
+
+            <class name="testcases.EbaySearchTest"/>
+
+        </classes>
+    </test>
+
+</suite>
